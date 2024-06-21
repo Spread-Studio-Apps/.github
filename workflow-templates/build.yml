@@ -1,0 +1,17 @@
+name: Docker
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  docker:
+    uses: Spread-Studio-Apps/actions/.github/workflows/build.yml@main
+    with:
+      image_name: ${{ github.repository }}
+    secrets: inherit
+    permissions:
+      contents: read
+      packages: write
