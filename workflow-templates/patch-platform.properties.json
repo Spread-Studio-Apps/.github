@@ -1,0 +1,8 @@
+{
+    "name": "Patch Platform",
+    "description": "Automatically patch releases version of your Studio App on Platform.",
+    "iconName": "octicon hubot",
+    "categories": [
+        "Docker"
+    ]
+}
