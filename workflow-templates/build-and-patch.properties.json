@@ -1,5 +1,5 @@
 {
-    "name": "Build and patch",
+    "name": "Build Docker image and patch Platform",
     "description": "Create a Docker image to deploy your Studio App and automatically patch its release version on Platform.",
     "iconName": "octicon rocket",
     "categories": [
