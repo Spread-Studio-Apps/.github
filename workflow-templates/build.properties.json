@@ -1,7 +1,7 @@
 {
     "name": "Docker image",
     "description": "Create a Docker image to deploy your Studio App.",
-    "iconName": "octicon squirrel",
+    "iconName": "octicon gift",
     "categories": [
         "Docker"
     ]
